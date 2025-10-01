@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FitLife - Wellness Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <h1 class="logo">FitLife</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#programs">Programs</a>
+      <a href="#stats">Stats</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section (Parallax) -->
+  <section id="home" class="hero parallax">
+    <div class="hero-content reveal fade-up">
+      <h2>Transform Your Body & Mind</h2>
+      <p>Join thousands of people achieving their fitness goals with us.</p>
+      <button class="cta-btn">Get Started</button>
+    </div>
+  </section>
+
+  <!-- Programs -->
+  <section id="programs" class="programs reveal fade-up">
+    <h2>Our Programs</h2>
+    <div class="program-grid">
+      <div class="program-card">🏋️ Strength Training</div>
+      <div class="program-card">🧘 Yoga & Meditation</div>
+      <div class="program-card">🏃 Cardio & Endurance</div>
+      <div class="program-card">🥗 Nutrition Plans</div>
+    </div>
+  </section>
+
+  <!-- Stats / Animated Counters -->
+  <section id="stats" class="stats reveal fade-up">
+    <div class="stat">
+      <h3 class="counter" data-target="5000">0</h3>
+      <p>Happy Clients</p>
+    </div>
+    <div class="stat">
+      <h3 class="counter" data-target="120">0</h3>
+      <p>Certified Trainers</p>
+    </div>
+    <div class="stat">
+      <h3 class="counter" data-target="50">0</h3>
+      <p>Programs</p>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="testimonials reveal fade-up">
+    <h2>What Our Clients Say</h2>
+    <div class="slider">
+      <div class="slide active">"FitLife changed my life! - Sarah"</div>
+      <div class="slide">"Great trainers and amazing support! - Raj"</div>
+      <div class="slide">"I feel healthier and stronger every day. - Mia"</div>
+    </div>
+    <div class="slider-controls">
+      <span class="prev">❮</span>
+      <span class="next">❯</span>
+    </div>
+  </section>
+
+  <!-- Skills/Progress -->
+  <section class="skills reveal fade-up">
+    <h2>Our Expertise</h2>
+    <div class="skill">
+      <p>Yoga Training</p>
+      <div class="progress"><div class="bar" data-progress="90"></div></div>
+    </div>
+    <div class="skill">
+      <p>Strength Coaching</p>
+      <div class="progress"><div class="bar" data-progress="85"></div></div>
+    </div>
+    <div class="skill">
+      <p>Nutrition Support</p>
+      <div class="progress"><div class="bar" data-progress="95"></div></div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="faq reveal fade-up">
+    <h2>Frequently Asked Questions</h2>
+    <div class="accordion">
+      <div class="faq-item">
+        <h3>What programs do you offer? <span>+</span></h3>
+        <p>We offer Yoga, Strength Training, Cardio, and Nutrition plans.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Do you provide personal trainers? <span>+</span></h3>
+        <p>Yes! We have certified trainers for one-on-one guidance.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Is there a diet consultation? <span>+</span></h3>
+        <p>We provide customized diet charts and wellness support.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact reveal fade-up">
+    <h2>Get in Touch</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Sticky Join Us Button -->
+  <button class="sticky-btn">Join Us</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
